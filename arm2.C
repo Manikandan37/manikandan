@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,i,temp,num,rem;
+clrscr();
+printf("Enter two numbers(intervals): ");
+scanf("%d%d",&a,&b);
+for(i=a+1;i<b;++i)
+{
+temp=i;
+num=0;
+while(temp!=0)
+{
+rem=(temp%10);
+num+=rem*rem*rem;
+temp/=10;
+}
+if(i==num)
+{
+printf("%d",i);
+}
+}
+getch();
+}
