@@ -1,8 +1,10 @@
 #include <stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     char c;
     int yen,ney;
+    clrscr();
     printf("Enter an alphabet: ");
     scanf("%c",&c);
     yen=(c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
@@ -11,5 +13,5 @@ int main()
     printf("%c is a vowel.", c);
     else
     printf("%c is a consonant.", c);
-    return 0;
+    getch();
 }
