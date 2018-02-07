@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int yen;
+int a;
 clrscr();
 printf("Enter the Number");
-scanf("%d",&yen);
-if(yen==0)
+scanf("%d",&a);
+if(a==0)
 printf("no is zero");
-else if(yen>=1)
+else if(a>=1)
 printf("no is positive");
 else
 printf("no is negative");
