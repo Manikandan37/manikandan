@@ -4,6 +4,7 @@ void main()
 {
     long long n;
     int count = 0;
+    clrscr();
 
     printf("Enter an integer: ");
     scanf("%lld", &n);
