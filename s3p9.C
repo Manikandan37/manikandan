@@ -3,7 +3,6 @@
 void main()
 {
 int n,min,sec;
-clrscr();
 printf("Enter time in minutes:");
 scanf("%d",&n);
 min = n/60;
