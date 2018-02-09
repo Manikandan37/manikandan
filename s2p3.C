@@ -3,6 +3,7 @@
 void main()
 {
 int n,i,m=0;
+ clrscr();
 printf("Enter a positive integer: ");
  scanf("%d",&n);
 for(i=2;i<=n/2;i++)
