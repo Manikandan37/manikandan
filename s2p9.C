@@ -3,6 +3,7 @@
 void main()
 {
 int i,fact=1,num;
+ clrscr();
 printf("Enter a number: ");
 scanf("%d",&num);
 for(i=1;i<=num;i++)
