@@ -3,6 +3,7 @@
 void main()
 {
 int n,a,remain,result=0;
+clrscr();
 printf("Enter a three digit integer: ");
 scanf("%d",&n);
 a=n;
