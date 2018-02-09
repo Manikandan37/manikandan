@@ -3,6 +3,7 @@
 void main() 
 {
  int a,b,i,c;
+ clrscr();
  printf("Enter two numbers(intervals): ");
  scanf("%d %d",&a,&b);
  printf("Prime numbers between %d and %d are:",a,b);
