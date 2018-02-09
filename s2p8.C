@@ -3,7 +3,6 @@
 void main()
 {
 int a,b,i,temp,num,rem;
-clrscr();
 printf("Enter two numbers(intervals): ");
 scanf("%d%d",&a,&b);
 for(i=a+1;i<b;++i)
