@@ -3,7 +3,6 @@
 void main()
 {
 long int sum=0,i,n;
-clrscr();
 printf("\n Please Give The Value of N:  ");
 scanf("%ld",&n);
 for(i=1;i<=n;i++)
