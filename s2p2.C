@@ -3,6 +3,7 @@
 void main()
 {
 int n,rev=0,remain,orig;
+ clrscr();
 printf("Enter an integer: ");
 scanf("%d",&n);
 orig=n;
