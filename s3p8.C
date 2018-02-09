@@ -3,7 +3,6 @@
 void main()
 {
 int b,a[10],i;
-clrscr();
 printf("enter the no.of elements:");
 scanf("%d",&b);
 printf("enter the array elements:");
