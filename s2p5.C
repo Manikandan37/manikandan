@@ -4,6 +4,7 @@ void main()
 {
 
 int a,b,rem,i;
+ clrscr();
 printf("   First number for the Range:\n");
 scanf("%d",&a);
 printf("  Final number for the Range:\n");
