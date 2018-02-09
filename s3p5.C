@@ -5,6 +5,7 @@ void  main()
 {
 int i,j,n;
 float median,a[N],t;
+clrscr();
 printf("Enter the number of items\n");
 scanf("%d", &n);
 printf("Input %d values \n",n);
