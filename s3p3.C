@@ -3,7 +3,6 @@
 void main()
 {
 int array[100],min,size,i;
-clrscr();
 printf("Enter the number of elements in array\n");
 scanf("%d",&size);
 printf("Enter %d integers\n",size);
