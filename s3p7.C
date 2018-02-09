@@ -4,7 +4,6 @@ void main()
 {
 char s[30];
 int i,f=0,n=0;
-clrscr();
 printf("enter the string:");
 scanf("%s",s);
 for(i=0;s[i]!='\0';i++)
