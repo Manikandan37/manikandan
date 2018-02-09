@@ -3,7 +3,6 @@
 void main()
 {
 int n,b[10],i,num,j,k,temp;
-clrscr();
 printf("enter the limit");
 scanf("%d",&n);
 for(i=0;i<n;i++)
