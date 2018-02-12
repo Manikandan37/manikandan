@@ -4,6 +4,7 @@ void main()
 {
     char str[100];
     int count = 0, i;
+    clrscr();
     printf("enter the string\n");
     scanf("%[^\n]s", str);
     for (i = 0;str[i] != '\0';i++)
