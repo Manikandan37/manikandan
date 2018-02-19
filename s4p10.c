@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main() 
+#include<conio.h>
+void main() 
 {
 int n,a=0,b=0,c;
 printf("Enter a   number:");
@@ -17,5 +18,5 @@ b=d;
 }
 printf("The fibonacci Numbers are:%d",d);
 }
-return 0;
+getch();
 }
