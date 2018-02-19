@@ -1,5 +1,6 @@
 #include<stdio.h>
-main()
+#include<conio.h>
+void main()
 {
 int a[25],i,m=0;
 for(i=0;i<=10;i++)
@@ -15,4 +16,5 @@ m=a[i];
 }
   }
   printf("maximum element is %d",m);
+  getch();
 }
