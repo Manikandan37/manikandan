@@ -4,3 +4,11 @@ void main()
 {
 int a,b,t;
 clrscr();
+printf("\n Enter the a,b values\t");
+scanf("%d%d",&a,&b);
+t=a;
+a=b;
+b=t;
+printf("\n%d %d",a,b);
+getch();
+}
