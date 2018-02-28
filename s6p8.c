@@ -3,7 +3,6 @@
 void main()
 {
 int a,b,temp;
-clrscr();
 printf("\n enter the value for a:");
 scanf("%d",&a);
 printf("\n enter the value for b:");
