@@ -4,7 +4,7 @@
 int main()
 {
 	int n,l,p,i;
-  clrscr();
+  
 	char s[100];
   printf("\n Enter the number");
   scanf("%s",s);
